@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewery List</title>
+  <link rel="icon" href="https://www.openbrewerydb.org/favicon.png">
+  <link rel="stylesheet" href="./src/style/main.css">
+</head>
+<body class="page">
+  <main class="container">
+    <h1 class="title">List All Breweries in the US</h1>
+    <div id="search-area" class="search">
+      <form id="brewery-search" class="search__form">
+        <input type="text" name="name" placeholder="Search by Name" id="search-bar" class="search__form__inputs">
+        <input type="text" name="state" placeholder="Search by State" id="state-bar" class="search__form__inputs">
+        <input type="text" name="city" placeholder="Search by City" id="city-bar" class="search__form__inputs">
+        <button class="search__form__button" type="submit" id="submit">
+          <span class="button-text"></span>
+          <div class="fill-container"></div>
+        </button>
+      </form>
+    </div>
+    <div class="popup">
+      <div class="popup-content"></div>
+    </div>
+    <div id="info" class="list">
+      <h2 class="title">Use the search fields above to find Breweries in the USA!</h2>
+    </div>
+  </main>
+  <script src="src/scripts/main.js"></script>
+</body>
+</html>
+
+
+
+
