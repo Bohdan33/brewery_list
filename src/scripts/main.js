@@ -32,7 +32,7 @@ const renderBrewery = (brewery) => {
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
         </span>
-        <span><a class="button-text" href="#" onclick="closePopup()">Close</a></span>
+        <span><a class="button-text" href="#info" onclick="closePopup()">Close</a></span>
       </button>
   `;
   popup.style.display = 'block';
